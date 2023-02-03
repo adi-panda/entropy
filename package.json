@@ -9,7 +9,10 @@
   },
   "author": "Tim Haywood",
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "gh": "^2.8.9",
+    "spack": "^1.0.0"
+  },
   "devDependencies": {
     "@swc/cli": "^0.1.49",
     "@swc/core": "^1.2.88",
