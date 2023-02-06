@@ -13,11 +13,15 @@
        });
   
         // Write any UI code here. Note: myPanel is your window panel object. If you add groups, buttons, or other UI objects make sure you use myPanel as their parent object, especially if you are using the only ScriptUI panel builder.
-        myPanel.alignChildren = "center";
+
         myPanel.text = "Randomize Positions"; 
-        myPanel.orientation = "column"; 
-        myPanel.spacing = 10; 
-        myPanel.margins = 16; 
+        myPanel.orientation = "column";
+        myPanel.alignChildren = "left";
+        myPanel.preferredSize[0] = 240;
+        myPanel.spacing = 8;
+        myPanel.margins = 12;
+
+
 
         var group1 = myPanel.add("group", undefined, {name: "group1"});
         group1.orientation = "row";
